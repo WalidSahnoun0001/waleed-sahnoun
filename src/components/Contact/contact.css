@@ -1,0 +1,43 @@
+.contact {
+    text-align: center;
+    color: #fff;
+
+    padding: 50px 0;
+}
+.contact h2 {
+    margin-bottom: 20px;
+}
+.contact p {
+    width: 30%;
+    margin: 0 auto;
+    line-height: 1.6;
+    color: #888;
+}
+.contact .email-me {
+    margin-top: 50px;
+}
+.contact .email-me a {
+    color: #fff;
+    text-decoration: none;
+
+    background-color: #9D9D9D;
+    padding: 10px 30px;
+    border-radius: 3px;
+}
+.contact .email-me a i {
+    margin-right: 10px;
+}
+.contact .email-me a:hover {
+    background-color: #7158e2;
+}
+
+@media (max-width: 575.98px) { 
+    .contact p {
+        width: 80%;
+    }
+}
+@media (min-width: 768px) and (max-width: 991.98px) {
+    .contact p {
+        width: 45%;
+    }
+}

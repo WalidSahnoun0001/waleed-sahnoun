@@ -1,0 +1,83 @@
+.skills {
+    padding: 50px 0;
+}
+.skills {
+    width: 70%;
+    margin: 0 auto;
+}
+.skills .frontend-skills {
+    margin-bottom: 50px;
+}
+.skills .frontend-skills h2 {
+    margin-bottom: 50px;
+    font-size: 16px;
+    color: #888;
+    text-transform: uppercase;
+}
+.skills .frontend-skills .my-skills {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+.skills .frontend-skills .my-skills .skill {
+    text-align: center;
+}
+.skills .frontend-skills .my-skills .skill h4 {
+    margin-bottom: 20px;
+    color: #fff;
+}
+.skills .frontend-skills .my-skills .skill .icon i {
+    font-size: 25px;
+    color: #7158e2;
+}
+
+.skills .other-skills {
+    display: flex;
+    justify-content: space-between;
+}
+.skills .other-skills .others:nth-child(2) {
+    width: 50%;
+    margin-left: 50px;
+}
+.skills .other-skills h2 {
+    font-size: 16px;
+    text-transform: uppercase;
+    color: #888;
+
+    margin-bottom: 25px;
+}
+.skills .other-skills .my-skills {
+    display: flex;
+    align-items: center;
+    flex-wrap: wrap;
+}
+.skills .other-skills .my-skills .skill {
+    margin-right: 30px;
+    border-radius: 3px;
+    background-color: #7158e2;
+    margin: 0 20px 10px 0;
+    padding: 2px 5px;
+    cursor: default;
+}
+.skills .other-skills .my-skills .skill h4 {
+    color: #fff;
+}
+
+@media (max-width: 575.98px) { 
+    .skills .other-skills {
+        display: block;
+    }
+    
+    .skills .other-skills .others:nth-child(2) {
+        margin: 10px 0;
+    }
+}
+@media (min-width: 768px) and (max-width: 991.98px) {
+    .skills .other-skills {
+        display: block;
+    }
+    .skills .other-skills .others:nth-child(2) {
+        margin: 10px 0;
+    }
+}

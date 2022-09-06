@@ -1,0 +1,48 @@
+section.header {
+    background-color: #323232;
+}
+header {
+    padding: 15px 0;
+
+    width: 70%;
+    margin: 0 auto;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+header h2 {
+    color: #fff;
+    font-size: 20px;
+    cursor: pointer;
+}
+header nav ul {
+    list-style: none;
+    display: flex;
+    align-items: center;
+}
+header nav ul li {
+    margin-left: 50px;
+}
+header nav ul li a {
+    text-decoration: none;
+    color: #fff;
+    font-size: 14px;
+}
+header nav ul li a:hover {
+    color: #7158e2;
+}
+
+@media (max-width: 575.98px) {
+    header h2 {
+        font-size: 14px;
+    }
+    header nav ul li {
+        margin-left: 6px;
+    }
+    header nav ul li a {
+        font-size: 12px;
+    }
+}
+@media (min-width: 768px) and (max-width: 991.98px) {
+    
+}

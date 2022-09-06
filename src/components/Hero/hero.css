@@ -1,0 +1,85 @@
+section.hero {
+    background-color: #202020;
+    min-height: 65vh;
+}
+section .hero-content {
+    width: 70%;
+    margin: 0 auto;
+    color: #fff;
+    margin-top: 100px;
+    padding: 50px 0;
+}
+section .hero-content h2 {
+    font-size: 35px;
+    font-weight: 700;
+    width: 35%;
+    line-height: 1.4;
+}
+section .hero-content p {
+    margin-top: 20px;
+    width: 35%;
+    line-height: 1.6;
+}
+section .hero-content .email-me {
+    margin-top: 50px;
+}
+section .hero-content .email-me a {
+    color: #fff;
+    text-decoration: none;
+
+    background-color: #9D9D9D;
+    padding: 10px 30px;
+    border-radius: 3px;
+    transition: .3s ease-in-out;
+}
+section .hero-content .email-me a i {
+    margin-right: 10px;
+}
+section .hero-content .email-me a:hover {
+    background-color: #7158e2;
+}
+
+@media (max-width: 575.98px) {
+    section.hero {
+        min-height: 50vh;
+    }
+    section .hero-content h2 {
+        width: 100%;
+        font-size: 25px;
+    }
+    section .hero-content p {
+        width: 100%;
+    }
+    section .hero-content .email-me a {
+        padding: 6px 10px;
+    }
+    section .hero-content .email-me a span {
+        font-size: 14px;
+    }
+}
+@media (min-width: 576px) and (max-width: 767.98px) {
+    section .hero-content h2 {
+        width: 100%;
+        font-size: 25px;
+    }
+    section .hero-content p {
+        width: 100%;
+    }
+    section .hero-content .email-me a {
+        padding: 6px 10px;
+    }
+    section .hero-content .email-me a span {
+        font-size: 14px;
+    }
+}
+@media (min-width: 768px) and (max-width: 991.98px) {
+    section.hero {
+        min-height: 60vh;
+    }
+    section .hero-content h2 {
+        width: 75%;
+    }
+    section .hero-content p {
+        width: 70%;
+    }
+}

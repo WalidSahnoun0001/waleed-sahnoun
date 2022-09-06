@@ -1,0 +1,74 @@
+.other-works {
+    padding: 50px 0;
+
+    width: 70%;
+    margin: 0 auto;
+}
+.other-works h2 {
+    margin-bottom: 50px;
+    text-transform: uppercase;
+    color: #888;
+    font-size: 18px;
+    text-align: center;
+}
+.other-works .all-other-works {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+.other-works .all-other-works .an-other-work {
+    position: relative;
+    width: 300px;
+    height: 300px;
+    margin: 20px 0 20px 0;
+    cursor: pointer;
+}
+.other-works .all-other-works .an-other-work:hover {
+    box-shadow: 0 0 5px 5px #333;
+}
+.other-works .all-other-works .an-other-work figure img {
+    width: 100%;
+    height: 300px;
+    object-fit: cover;
+}
+.other-works .all-other-works .an-other-work .work-info {
+    position: absolute;
+    top: 40%;
+    width: 100%;
+    text-align: center;
+    color: #fff;
+}
+.other-works .all-other-works .an-other-work .overlay {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(118, 117, 117, 0.784);
+}
+.other-works .all-other-works .an-other-work .work-info h3 {
+    font-size: 25px;
+}
+.other-works .all-other-works .an-other-work .work-info .tech {
+    margin-top: 50px;
+    background-color: #7158e2;
+    width: 80px;
+    margin: 25px auto;
+    padding: 5px 10px;
+    border-radius: 3px;
+}
+
+
+@media (max-width: 575.98px) { 
+    .other-works .all-other-works {
+        justify-content: center;
+    }
+}
+@media (min-width: 768px) and (max-width: 991.98px) {
+    .other-works .all-other-works {
+        justify-content: center;
+    }
+    
+    .other-works .all-other-works .an-other-work {
+        margin: 20px 15px 20px 0;
+    }
+}
