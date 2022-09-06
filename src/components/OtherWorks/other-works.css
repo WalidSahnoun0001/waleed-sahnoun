@@ -25,7 +25,7 @@
     cursor: pointer;
 }
 .other-works .all-other-works .an-other-work:hover {
-    box-shadow: 0 0 5px 5px #333;
+    box-shadow: 0 0 10px 4px #333;
 }
 .other-works .all-other-works .an-other-work figure img {
     width: 100%;

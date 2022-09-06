@@ -64,7 +64,11 @@
     color: #fff;
 }
 
-@media (max-width: 575.98px) { 
+@media (max-width: 575.98px) {
+    .skills .frontend-skills .my-skills .skill {
+        width: 100px;
+        height: 100px;
+    }
     .skills .other-skills {
         display: block;
     }

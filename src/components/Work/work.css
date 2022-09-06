@@ -64,6 +64,7 @@
 }
 .work .all-works figure {
     height: 100%;
+    box-shadow: 0 0 12px 8px #333;
 }
 .work .all-works figure img {
     width: 100%;
@@ -81,6 +82,9 @@
 }
 .work .all-works figure:hover .overlay {
     display: block;
+}
+.work .all-works figure:hover {
+    box-shadow: none;
 }
 
 @media (min-width: 576px) and (max-width: 767.98px) {

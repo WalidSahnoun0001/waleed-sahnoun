@@ -54,7 +54,7 @@ section .hero-content .email-me a:hover {
         padding: 6px 10px;
     }
     section .hero-content .email-me a span {
-        font-size: 14px;
+        font-size: 12px;
     }
 }
 @media (min-width: 576px) and (max-width: 767.98px) {
