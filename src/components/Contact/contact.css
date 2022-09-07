@@ -32,6 +32,9 @@
 }
 
 @media (max-width: 575.98px) { 
+    .contact .email-me a span {
+        font-size: 12px;
+    }
     .contact p {
         width: 80%;
     }
