@@ -52,8 +52,6 @@ section .hero-content .email-me a:hover {
     }
     section .hero-content .email-me a {
         padding: 6px 10px;
-    }
-    section .hero-content .email-me a span {
         font-size: 12px;
     }
 }
@@ -67,8 +65,6 @@ section .hero-content .email-me a:hover {
     }
     section .hero-content .email-me a {
         padding: 6px 10px;
-    }
-    section .hero-content .email-me a span {
         font-size: 12px;
     }
 }
