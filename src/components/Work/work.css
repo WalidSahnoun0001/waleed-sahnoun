@@ -63,6 +63,7 @@
     position: relative;
 }
 .work .all-works figure {
+    position: relative;
     height: 100%;
     box-shadow: 0 0 12px 8px #333;
 }
