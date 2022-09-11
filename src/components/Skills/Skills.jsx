@@ -13,7 +13,8 @@ function Skills() {
     const tools = [
         {id: 1, tool: "Git"},
         {id: 2, tool: "Pinia"},
-        {id: 3, tool: "Redux/Redux Toolkit"},
+        {id: 3, tool: "Axios"},
+        {id: 4, tool: "Redux/Redux Toolkit"},
     ]
 
     const others = [
