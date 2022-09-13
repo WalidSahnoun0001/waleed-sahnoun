@@ -1,5 +1,5 @@
 import './other-works.css'
-import IncomeTracker from '../../assets/Income-Tracker.png'
+import QuizApp from '../../assets/Quiz-App.png'
 import QuranPlayer from '../../assets/Quran-Player.png'
 import QRGenrator from '../../assets/React-App.png'
 import RedditApi from '../../assets/Reddit-Api-Article-Titles-App.png'
@@ -15,7 +15,7 @@ function OtherWorks() {
         {id: 3, src: RedditApi, title: "Reddit Api Article Titles", tech: "ReactJs", link: "https://walidsahnoun0001.github.io/reddit-api-get-article-titles-app-reactjs/"},
         {id: 4, src: TodoApp, title: "Todo App", tech: "Reactjs", link: "https://walidsahnoun0001.github.io/todo-app-reactjs-vite/"},
         {id: 5, src: XOGame, title: "XO GAME", tech: "Vue 3", link: "https://walidsahnoun0001.github.io/xo-game-vue3-vite/"},
-        {id: 6, src: IncomeTracker, title: "Income Tracker", tech: "ReactJs", link: "https://walidsahnoun0001.github.io/income-tracker-app-react/"},
+        {id: 6, src: QuizApp, title: "Quiz App", tech: "ReactJs", link: "https://walidsahnoun0001.github.io/quiz-app-reactjs/"},
     ]
 
   return (
