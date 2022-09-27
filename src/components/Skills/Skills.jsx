@@ -15,6 +15,7 @@ function Skills() {
         {id: 2, tool: "Pinia"},
         {id: 3, tool: "Axios"},
         {id: 4, tool: "Redux/Redux Toolkit"},
+        {id: 5, tool: "Styled Components"},
     ]
 
     const others = [
