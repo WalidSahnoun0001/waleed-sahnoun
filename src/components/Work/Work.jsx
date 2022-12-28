@@ -1,8 +1,8 @@
 import './work.css'
-import Galaxy from '../../assets/Galaxy.png'
 import Fanatic from '../../assets/Fanatic.png'
 import Leon from '../../assets/Leon-Template.png'
 import Odin from '../../assets/Odin.png'
+import EcommerceRoomHomePage from '../../assets/ecommerce-room-home-page.png'
 
 function Work() {
 
@@ -17,15 +17,15 @@ function Work() {
             <div className="all-works">
               <div className="left">
                 <div className="a-work">
-                  <a href="https://walidsahnoun0001.github.io/implementation-galaxy-design/" target="_blank">
+                  <a href="https://walidsahnoun0001.github.io/ecommerce-room-home-page-react/" rel='noreferrer' target="_blank">
                     <figure>
                       <div className="overlay"></div>
-                      <img src={Galaxy} alt="" />
+                      <img src={EcommerceRoomHomePage} alt="" />
                     </figure>
                   </a>
                 </div>
                 <div className="a-work">
-                  <a href="https://walidsahnoun0001.github.io/fanatic-design-implementation/" target="_blank">
+                  <a href="https://walidsahnoun0001.github.io/fanatic-design-implementation/" rel='noreferrer' target="_blank">
                     <figure>
                       <div className="overlay"></div>
                       <img src={Fanatic} alt="" />
@@ -35,7 +35,7 @@ function Work() {
               </div>
               <div className="right">
                 <div className="a-work">
-                <a href="https://walidsahnoun0001.github.io/implementation-odin-design-react-vite/" target="_blank">
+                <a href="https://walidsahnoun0001.github.io/implementation-odin-design-react-vite/" rel='noreferrer' target="_blank">
                     <figure>
                       <div className="overlay"></div>
                       <img src={Odin} alt="" />
@@ -43,7 +43,7 @@ function Work() {
                   </a>
                 </div>
                 <div className="a-work">
-                  <a href="https://walidsahnoun0001.github.io/implementaion-leon-template-design/" target="_blank">
+                  <a href="https://walidsahnoun0001.github.io/implementaion-leon-template-design/" rel='noreferrer' target="_blank">
                     <figure>
                       <div className="overlay"></div>
                       <img src={Leon} alt="" />

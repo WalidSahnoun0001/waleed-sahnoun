@@ -1,7 +1,7 @@
 import './other-works.css'
-import QuizApp from '../../assets/Quiz-App.png'
+import StaticJobsFilter from '../../assets/static-jobs-filter.png'
 import QuranPlayer from '../../assets/Quran-Player.png'
-import QRGenrator from '../../assets/React-App.png'
+import ProductPage from '../../assets/product-page.png'
 import RedditApi from '../../assets/Reddit-Api-Article-Titles-App.png'
 import TodoApp from '../../assets/Todo-App.png'
 import XOGame from '../../assets/XO-GAME.png'
@@ -11,11 +11,11 @@ function OtherWorks() {
 
     const images = [
         {id: 1, src: QuranPlayer, title: "Quran Player", tech: "Vue 3", link: "https://walidsahnoun0001.github.io/quran-player-vuejs/"},
-        {id: 2, src: QRGenrator, title: "QR Genarator App", tech: "ReactJs", link: "https://walidsahnoun0001.github.io/qrcode-generator-reactjs/"},
+        {id: 2, src: ProductPage, title: "Ecommerce Product Page", tech: "ReactJs", link: "https://walidsahnoun0001.github.io/ecommerce-product-page-react-vite/"},
         {id: 3, src: RedditApi, title: "Reddit Api Article Titles", tech: "ReactJs", link: "https://walidsahnoun0001.github.io/reddit-api-get-article-titles-app-reactjs/"},
         {id: 4, src: TodoApp, title: "Todo App", tech: "Reactjs", link: "https://walidsahnoun0001.github.io/todo-app-reactjs-vite/"},
         {id: 5, src: XOGame, title: "XO GAME", tech: "Vue 3", link: "https://walidsahnoun0001.github.io/xo-game-vue3-vite/"},
-        {id: 6, src: QuizApp, title: "Quiz App", tech: "ReactJs", link: "https://walidsahnoun0001.github.io/quiz-app-reactjs/"},
+        {id: 6, src: StaticJobsFilter, title: "Static Jobs Filter", tech: "ReactJs", link: "https://walidsahnoun0001.github.io/static-jobs-filter-react-vite/"},
     ]
 
   return (
